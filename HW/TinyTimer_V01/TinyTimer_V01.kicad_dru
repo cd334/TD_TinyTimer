@@ -1,0 +1,4 @@
+(version 1)
+(rule "Pad2Pad Clerance" 
+	(constraint clearance (min 7mil))
+	(condition "A.Type == 'Pad' && B.Type == 'Pad'"))
